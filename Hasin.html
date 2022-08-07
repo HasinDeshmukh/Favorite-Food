@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Food App</title>
+
+    <style>
+     header ul 
+     {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: rgb(100, 70, 26);
+     }  
+
+      header li 
+     {
+       float: left;
+     }
+
+     header li a 
+     {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+      }
+
+     header li a:hover  
+     {
+       background-color: #111;
+      }
+
+     .text-content 
+     {
+       text-decoration:none;
+       color:black;
+      }
+
+     .menu a
+     {
+       text-decoration:none;
+       color:black;
+      }
+
+      .images
+     {
+        width:50%;
+        margin:0 auto;
+      }
+
+      .labels
+     {
+        margin-left:240px;
+        margin-bottom:40px;
+      }
+      
+      .fooditem
+     {
+        width:500px;
+        height:500px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: darkkhaki; margin: 0px; padding: 0px;" >
+
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>  
+
+    <div class="text-content" >
+      <h2>Top 5 favourite foods</h2>
+    </div>
+
+    <div  class="menu"  >
+      <ul>
+        <h3>
+          <li><a href="#Poha">Poha</a></li>
+          <li><a href="#Samosa">Samosa</a></li>
+          <li><a href="#Dosa">Dosa</a></li>
+          <li><a href="#Appe">Appe</a></li>
+          <li><a href="#Vadapav">Vadapav</a></li>
+        </h3>
+      </ul>
+    </div>
+
+    <div class="images">
+      <div id="Poha"><img src="https://m.economictimes.com/thumb/msid-70653292,width-1200,height-900,resizemode-4,imgsize-1453880/poha.jpg" class="fooditem">
+      </div><h3><p class="labels" >Poha</p></h3>
+
+     <div id="Samosa"><img src="https://www.hindimai.in/wp-content/uploads/2021/07/samosa-recipe-hindi-1200x900.jpg" class="fooditem">
+     </div><h3><p class="labels" >Samosa</p></h3>
+
+     <div id="Dosa"><img src="https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__700_0_0_0_auto.jpg" class="fooditem">
+     </div><h3><p class="labels" >Dosa</p></h3>
+
+     <div id="Appe"><img src="https://www.flavourstreat.com/wp-content/uploads/2019/07/instant-appe-recipe-700x658.jpg" class="fooditem">
+     </div><h3><p class="labels" >Appe</p></h3>
+
+     <div id="Vadapav"><img src="https://www.cookwithmanali.com/wp-content/uploads/2018/04/Vada-Pav-500x500.jpg" class="fooditem">
+     </div><h3><p class="labels" >Vadapav</p></h3>
+
+    </div>
+                     
+  </body>
+</html>
